@@ -11,11 +11,15 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Student Confirmation Form</title>
+<style>
+body{
+font-size:20px;
+}
+</style>
 </head>
 <body>
 
-Student Details
-<br>
+<h2>Student Details</h2>
 First Name - ${student.firstName}
 <br>
 Last Name - ${student.lastName}
